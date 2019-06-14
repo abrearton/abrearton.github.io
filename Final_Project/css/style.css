@@ -1,0 +1,26 @@
+.hero-image {
+  background-image: url("https://farm1.staticflickr.com/77/229919555_5e2c102281.jpg");
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px
+}
+.hero-text{
+  padding: 10px 0;
+  }
+h1{
+  font-size: 35px;
+  color: gray;
+}
