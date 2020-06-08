@@ -96,20 +96,20 @@ ul{
 	list-style-type: none;
 }
 #two_column {
-	padding: 20px;
+	padding: 40px;
 }
 
 #left {
 	background-color: rgba(207,212,216,.5);
 	padding: 0 10px 10px 10px;
-	width: 60%;
+	width: 65%;
 	float: left;
 }
 
 #right {
 	background-color: rgba(207,212,216,.5);
 	padding: 0 40px 30px 40px;
-	width: 30%;
+	width: 25%;
 	float: right;
 	
 
