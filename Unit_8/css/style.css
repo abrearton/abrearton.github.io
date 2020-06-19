@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=IBM+Plex+Sans:ital,wght@0,600;0,700;1,400&display=swap');
+
+#wrapper {
+	margin:0;
+}
+.container {
+	position: relative;
+	text-align: center;
+	color: #00a7b0;
+}
+.centered {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+.clearfix::after {
+	visibility: hidden;
+	display: block;
+	font-size:0;
+	content: " ";
+	clear:both;
+	height: 0;
+
+}
+
+body{
+	font-size: 25px;
+	
+}
+header{
+	background-color:white;
+
+}
+
+
+nav {
+	background: rgba(183,235,233,.4);
+	padding: 2%;
+	margin: 2%;
+}
+a {
+	display:block;
+	font-size:1.5em;
+	text-align:center;
+	padding:2%;
+	float:left;
+	width:18%;
+	
+	
+}
+a:hover {
+	background:#00a7b0;
+}
+}
+article {
+	padding: 0%;
+}
+
+	h1{
+	color:#00a7b0;
+	font-family: 'IBM Plex Sans', Helvetica, "sans-serif";
+	font-size: 4em;
+	text-align: center;
+	padding: 10% 0 30% 10%;
+}
+h2{
+	color:#f68842;
+	font-family: 'IBM Plex Sans',Helvetica, "sans-serif";
+	font-size: 3em;
+	text-align: center;
+}
+h3 {
+	color: #00a7b0;
+	font-family: 'IBM Plex Sans',Helvetica, "sans-serif";
+    font-size: 2em;
+	text-align: center;	
+}
+
+#slogan{
+	color:#f68842;
+	font-family: 'IBM Plex Sans',Helvetica, "sans-serif";
+	font-size: 2em;
+	text-align: center;
+	font-style:italic;
+}
+
+
+p{
+	font-family: 'Crimson Text', Helvetica, "sans-serif";
+	font-size: 2em;
+	padding: 2%;
+}
+
+ul{
+	color:#000000;
+	font-family: 'Crimson Text', Helvetica, "sans-serif";
+	font-size: 1em;
+	text-align: center;
+	list-style-type: none;
+}
+#two_column {
+	padding: 2%;
+}
+
+#left {
+	background-color: rgba(207,212,216,.5);
+	padding: 0 1%;
+	width: 65%;
+	float: left;
+}
+
+#right {
+	background-color: rgba(207,212,216,.5);
+	padding: 0 2%;
+	width: 25%;
+	float: right;	
+
+}
+.category {
+	width: 30%;
+}
+
+footer{
+	color:white;
+	font-family: 'IBM Plex Sans',Helvetica, "sans-serif";
+	font-size: 1em;
+	text-align: center;
+	background-color: #00a7b0;
+	padding: 3%;
+}
+.clearfix:after {
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+img {
+
+}
+.padding {
+	padding:1%;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 12px;
+	}
+	a {
+		display:block;
+		float: none;
+		width: auto;
+	}
+	h1 {
+		padding: 0% 0% 50% 20%;
+	}
+	}
+	#left {
+		width: auto;
+		float: none;
+	}	
+	#right {
+		width: auto;
+		float: none;
+	}
+
+.category {
+	width: auto;
+}
+}
